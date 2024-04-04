@@ -1,61 +1,32 @@
-# LotoFacil
-LotoFacil primeira entrega
-import javax.swing.*;
-import java.awt.event.*;
+# LOTOFÁCIL - Sistema de Loteria em Java
 
-public class LotoFacilGUI {
-    private JFrame frame;
-    private JPanel panel;
-    private JButton btnAposta0a100, btnApostaAaZ, btnApostaParImpar, btnSair;
+<p align="center">
+   <img src="https://github.com/adsluizapaiva/LP_lotofacil/blob/main/super.png" >
+</p>
 
-    public LotoFacilGUI() {
-        frame = new JFrame("LOTOFÁCIL");
-        panel = new JPanel();
-        btnAposta0a100 = new JButton("Apostar de 0 a 100");
-        btnApostaAaZ = new JButton("Apostar de A à Z");
-        btnApostaParImpar = new JButton("Apostar em par ou ímpar");
-        btnSair = new JButton("Sair");
 
-        btnAposta0a100.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null, "Implemente a lógica para apostar de 0 a 100 aqui.");
-            }
-        });
+🎲 Este é um sistema de loteria desenvolvido em Java chamado LOTOFÁCIL. O sistema permite gerar jogos aleatórios, realizar apostas, verificar resultados e calcular prêmios de acordo com as regras da loteria. A interação com o sistema é feita através do terminal.
 
-        btnApostaAaZ.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null, "Implemente a lógica para apostar de A à Z aqui.");
-            }
-        });
+## Funcionalidades
 
-        btnApostaParImpar.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null, "Implemente a lógica para apostar em par ou ímpar aqui.");
-            }
-        });
+- **Apostas**: Os jogadores podem fazer apostas em três modalidades diferentes: de 0 a 100, de A à Z, e em número par ou ímpar.
+- **Verificação de Resultados**: O sistema compara as apostas dos jogadores com os números ou letras sorteados e informa se o jogador ganhou ou não.
+- **Prêmios**: Os jogadores recebem prêmios de acordo com as regras de cada modalidade de aposta.
 
-        btnSair.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                frame.dispose();
-            }
-        });
+## Como Executar o Projeto
 
-        panel.add(btnAposta0a100);
-        panel.add(btnApostaAaZ);
-        panel.add(btnApostaParImpar);
-        panel.add(btnSair);
+1. Certifique-se de ter o JDK (Java Development Kit) instalado em sua máquina.
+2. Clone este repositório para o seu ambiente local.
+3. Compile o projeto utilizando o comando `javac Lotofacil.java`.
+4. Execute o projeto utilizando o comando `java Lotofacil`.
 
-        frame.add(panel);
-        frame.setSize(300, 200);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setVisible(true);
-    }
+---
+## Conclusão
+Este trabalho faz parte do curso de Análise e Desenvolvimento de Sistemas da Faculdade Newton Paiva e foi desenvolvido por Luiza Paiva (ads.luizapaiva@gmail.com). Contribuições e feedback são bem-vindos para aprimorar ainda mais este projeto simulado.
 
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(new Runnable() {
-            public void run() {
-                new LotoFacilGUI();
-            }
-        });
-    }
-}
+Agradecemos por explorar o repositório do LOTOFACIL!
+
+## GIF Explicativo da Interface Gráfica
+
+![GIF explicativo da interface gráfica](https://github.com/adsluizapaiva/LP_lotofacil/raw/main/IMG_5567.gif)
+
