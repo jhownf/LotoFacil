@@ -22,7 +22,7 @@
 
 ---
 ## Conclusão
-Este trabalho faz parte do curso de Análise e Desenvolvimento de Sistemas da Faculdade Newton Paiva e foi desenvolvido por Luiza Paiva (ads.luizapaiva@gmail.com). Contribuições e feedback são bem-vindos para aprimorar ainda mais este projeto simulado.
+Este trabalho faz parte do curso de Análise e Desenvolvimento de Sistemas da Faculdade Newton Paiva e foi desenvolvido por Jonathan Felipe (jonathanfelipe600@gmail.com). Contribuições e feedback são bem-vindos para aprimorar ainda mais este projeto simulado.
 
 Agradecemos por explorar o repositório do LOTOFACIL!
 
